@@ -9,8 +9,11 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   
+
 </head>
 <body>
 
@@ -46,90 +49,92 @@
        <input type="text" class="search-input" placeholder="Search Events By..">
  
        <button class="search-button">
-         <i class="fa fa-search" style="color:#FC732F"></i>
+         <i class="fa fa-search" ></i>
        </button>
     </div>
 
 <!--Cards-->
-<div class="container">
+<div class="container vertical-cards">
     <h2 class="ml-4"> Events(8)</h2>
     <div class="row mt-4">
-        <div class="col-md-4">
-            <div class="card" style="width: 325px;height: 342px;">
+        <div class="col-md-4 col-sm-12">
+            <div class="card card1">
                 <img class="card-img-top" src="./images/card-1.png" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">Understanding Color Theory :The Color Wheel And Findi</h5>
-                  <p class="card-text">21 Sept 2021         Tickets Available : N/A</p>
+                  <span class="card-text mb-4">21 Sept 2021</span>        <span class="float-right">Tickets Available : N/A</span>
                 </div>
                 
                 <div class="card-body">
-                    <button type="button" class="btn btn">Primary</button>
+                  <button type="button" class="btn btn-secondary btn-block" disabled><i class="fa fa-calendar-times-o" aria-hidden="true"></i>&nbsp;Sold Out</button>
                 </div>
               </div>
         </div>
-        <div class="col-md-4"><div class="card" style="width: 325px;height: 342px;">
+        <div class="col-md-4 col-sm-12 ">
+          <div class="card card1" >
             <img class="card-img-top" src="./images/card-2.png" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Understanding Color Theory :The Color Wheel And Findi</h5>
-              <p class="card-text">21 Sept 2021         Tickets Available : N/A</p>
+              <h5 class="card-title">RGD Design Thinkers</h5>
+              <span class="card-text">21 Sept 2021</span>        <span class="float-right">Tickets Available :<h6 class="ticket float-right mt-1">11</h6></span>
             </div>
             
             <div class="card-body">
-                <button type="button" class="btn btn-primary">Primary</button>
+              <button type="button" class="btn btn-default btn-block"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>&nbsp;Book Event</button>
             </div>
-          </div></div>
+          </div>
+        </div>
         
-        <div class="col-md-4">
-            <div class="card" style="width: 325px;height: 342px;">
+        <div class="col-md-4 col-sm-12">
+            <div class="card card1" >
                 <img class="card-img-top" src="./images/card-3.png" alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="card-title">Understanding Color Theory :The Color Wheel And Findi</h5>
-                  <p class="card-text">21 Sept 2021         Tickets Available : N/A</p>
+                  <h5 class="card-title">What Design Can Do</h5>
+                  <span class="card-text">21 Sept 2021</span> <span class="float-right">Tickets Available :<h6 class="ticket float-right mt-1">11</h6></span>
                 </div>
                 
                 <div class="card-body">
-                    <button type="button" class="btn btn-primary">Primary</button>
+                  <button type="button" class="btn btn-default btn-block"><i class="fa fa-calendar-check-o"></i>&nbsp;Book Event</button>
                 </div>
               </div>
         </div>
     </div>
-
-    <div class="row mt-4">
-        <div class="col-md-4">
-            <div class="card" style="width: 325px;height: 342px;">
+    <div class="row mt-4 ">
+        <div class="col-md-4 ">
+            <div class="card card1" >
                 <img class="card-img-top" src="./images/card-4.png" alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="card-title">Understanding Color Theory :The Color Wheel And Findi</h5>
-                  <p class="card-text">21 Sept 2021         Tickets Available : N/A</p>
+                  <h5 class="card-title">Perth UX Camp</h5>
+                  <span class="card-text">21 Sept 2021</span><span class="float-right">Tickets Available :<h6 class="ticket float-right mt-1">11</h6></span>
                 </div>
                 
                 <div class="card-body">
-                    <button type="button" class="btn btn-primary">Primary</button>
+                  <button type="button" class="btn btn-default btn-block"><i class="fa fa-calendar-check-o"></i>&nbsp;Book Event</button>
                 </div>
               </div>
         </div>
-        <div class="col-md-4"><div class="card" style="width: 325px;height: 342px;">
+        <div class="col-md-4">
+          <div class="card card1" >
             <img class="card-img-top" src="./images/card-5.png" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Understanding Color Theory :The Color Wheel And Findi</h5>
-              <p class="card-text">21 Sept 2021         Tickets Available : N/A</p>
+              <h5 class="card-title">Sofia Design</h5>
+              <span class="card-text">21 Sept 2021</span> <span class="float-right">Tickets Available :<h6 class="ticket float-right mt-1">11</h6></span>
             </div>
             
             <div class="card-body">
-                <button type="button" class="btn btn-primary">Primary</button>
+              <button type="button" class="btn btn-default btn-block"><i class="fa fa-calendar-check-o"></i>&nbsp;Book Event</button>
             </div>
           </div></div>
         
         <div class="col-md-4">
-            <div class="card" style="width: 325px;height: 342px;">
+            <div class="card card1" >
                 <img class="card-img-top" src="./images/card-6.png" alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="card-title">Understanding Color Theory :The Color Wheel And Findi</h5>
-                  <p class="card-text">21 Sept 2021         Tickets Available : N/A</p>
+                  <h5 class="card-title">Design Indaba Conference </h5>
+                  <span class="card-text">21 Sept 2021</span><span class="float-right">Tickets Available :<h6 class="ticket float-right mt-1">11</h6></span>
                 </div>
                 
                 <div class="card-body">
-                    <button type="button" class="btn btn-primary">Primary</button>
+                  <button type="button" class="btn btn-default btn-block"><i class="fa fa-calendar-check-o"></i>&nbsp;Book Event</button>
                 </div>
               </div>
         </div>
@@ -137,33 +142,178 @@
 
     <div class="row mt-4">
         <div class="col-md-4">
-            <div class="card" style="width: 325px;height: 342px;">
+            <div class="card card1" >
                 <img class="card-img-top" src="./images/card-7.png" alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="card-title">Understanding Color Theory :The Color Wheel And Findi</h5>
-                  <p class="card-text">21 Sept 2021         Tickets Available : N/A</p>
+                  <h5 class="card-title">TYPO Berlin</h5>
+                  <span class="card-text">21 Sept 2021</span><span class="float-right">Tickets Available :<h6 class="ticket float-right mt-1">11</h6></span>
                 </div>
                 
                 <div class="card-body">
-                    <button type="button" class="btn btn-primary">Primary</button>
+                  <button type="button" class="btn btn-default btn-block"><i class="fa fa-calendar-check-o"></i>&nbsp;Book Event</button>
                 </div>
               </div>
         </div>
-        <div class="col-md-4"><div class="card" style="width: 325px;height: 342px;">
+        <div class="col-md-4 mb-5">
+          <div class="card card1">
             <img class="card-img-top" src="./images/card-8.png" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Understanding Color Theory :The Color Wheel And Findi</h5>
-              <p class="card-text">21 Sept 2021         Tickets Available : N/A</p>
+              <h5 class="card-title">AIGA Design Conference</h5>
+              <span class="card-text">21 Sept 2021</span> <span class="float-right">Tickets Available :<h6 class="ticket float-right mt-1">11</h6></span>
             </div>
             
             <div class="card-body">
-                <button type="button" class="btn btn-primary">Primary</button>
+              <button type="button" class="btn btn-default btn-block"><i class="fa fa-calendar-check-o"></i>&nbsp;Book Event</button>
             </div>
-          </div></div>
-        
-        
+          </div>
+        </div>   
     </div>
 
 </div>
+<!--For Ipad-->
+
+<div class="container-fluid horizontal-cards p-5 ">
+  <h2 class="ml-4"> Events(8)</h2>
+  <div class="row">
+      <div class="col-12 mt-3">
+          <div class=" card">
+              <div class="card-horizontal">
+                  <div class="img-square-wrapper">
+                      <img class="" src="./images/card-1.png" alt="Card image cap">
+                  </div>
+                  <div class="card-body">
+                      <h4 class="card-title">Australlian Accessibility Conference</h4>
+                      <p class="card-text">21 Sept,2021</p>
+                      <span class="">Tickets Available :</span><span class="ticket  mt-1">23</span>
+                      <i class="fa fa-calendar-check-o float-right"></i>
+                  </div>
+              </div>
+              
+          </div>
+      </div>
+  </div>
+  <div class="row">
+    <div class="col-12 mt-3">
+        <div class=" card">
+            <div class="card-horizontal">
+                <div class="img-square-wrapper">
+                    <img class="" src="./images/c-2.png" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">RGD Design Thinkers</h4>
+                  <p class="card-text">21 Sept,2021</p>
+                  <span class="">Tickets Available :</span><span class="ticket  mt-1">11</span>
+                  <i class="fa fa-calendar-check-o float-right"></i>
+              </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<div class="row">
+  <div class="col-12 mt-3">
+      <div class=" card">
+          <div class="card-horizontal">
+              <div class="img-square-wrapper">
+                  <img class="" src="./images/c-3.png" alt="Card image cap">
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Understanding Colour Theory:The Color Wheel And Finding Complements..</h4>
+                <p class="card-text">21 Sept,2021</p>
+                <span class="">Tickets Available :</span><span class="ticket  mt-1">47</span>
+                <i class="fa fa-calendar-check-o float-right"></i>
+            </div>
+          </div>
+          
+      </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12 mt-3">
+      <div class=" card">
+          <div class="card-horizontal">
+              <div class="img-square-wrapper">
+                  <img class="" src="./images/c-4.png" alt="Card image cap">
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">What Design Can Do</h4>
+                <p class="card-text">21 Sept,2021</p>
+                <span class="">Tickets Available :</span><span class="ticket  mt-1">206</span>
+                <i class="fa fa-calendar-check-o float-right"></i>
+            </div>
+          </div>
+          
+      </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12 mt-3">
+      <div class=" card">
+          <div class="card-horizontal">
+              <div class="img-square-wrapper">
+                  <img class="" src="./images/c-3.png" alt="Card image cap">
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Australlian Accessibility Conference</h4>
+                <p class="card-text">21 Sept,2021</p>
+                <span class="">Tickets Available :</span><span class="ticket  mt-1">11</span>
+                <i class="fa fa-calendar-check-o float-right"></i>
+            </div>
+          </div>
+          
+      </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12 mt-3">
+      <div class=" card">
+          <div class="card-horizontal">
+              <div class="img-square-wrapper">
+                  <img class="" src="./images/c-4.png" alt="Card image cap">
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Australlian Accessibility Conference</h4>
+                <p class="card-text">21 Sept,2021</p>
+                <span class="">Tickets Available :</span><span class="ticket  mt-1">11</span>
+                <i class="fa fa-calendar-check-o float-right"></i>
+            </div>
+          </div>
+          
+      </div>
+  </div>
+</div>
+</div>
+<!--End Of Ipad code-->
+<!--Mobile Code-->
+<div class="container mob-card">
+  <h2 class="ml-4 mt-3 mb-3"> Events(8)</h2>
+<div class="card">
+  <div class="card-body">
+    <h4 class="card-title">Australlian Accessibility Conference</h4>
+    <p class="card-text">21 Sept,2021</p>
+    <span class="">Tickets Available :</span><span class="ticket  mt-1">11</span>
+    <i class="fa fa-calendar-check-o float-right"></i>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-body">
+    <h4 class="card-title">RGD Design Thinkers</h4>
+                  <p class="card-text">21 Sept,2021</p>
+                  <span class="">Tickets Available :</span><span class="ticket  mt-1">11</span>
+                  <i class="fa fa-calendar-check-o float-right"></i>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-body">
+    <h4 class="card-title">Understanding Colour Theory:The Color Wheel And Finding Complements..</h4>
+    <p class="card-text">21 Sept,2021</p>
+    <span class="">Tickets Available :</span><span class="ticket  mt-1">47</span>
+    <i class="fa fa-calendar-check-o float-right"></i>
+  </div>
+</div>
+</div>
+<!--End Of Mob code-->
 </body>
 </html>

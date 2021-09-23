@@ -16,41 +16,12 @@
 .logout{
     margin-right:102px;
 }
-/*.search{
-    height:60px;
-    margin-top:-25px;
-   }
-.searchTerm {
-    width: 442px;
-    border: 3px solid #00B4CC;
-    border-right: none;
-    padding: 6px;
-    /* padding-top: 20px;
-    margin-top: 13px;
-    margin-left: 36px;
-    height: 34px;
-    border-radius: 5px 0 0 5px;
-    outline: none;
-    color: #9DBFAF;
+.card1{
+  width: 325px;
+  height: 342px;
+  margin-left:20px;
 }
 
-.searchTerm:focus{
-  color: #00B4CC;
-}
-
-.searchButton {
-  width: 40px;
-  height: 34px;
-  border: 3px solid #00B4CC;
-  border-left:none;
-  background: white;
-  text-align: center;
-  color: black;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
-  font-size: 20px;
-}
-*/
 
 .search-box{
     width: 100%;
@@ -79,13 +50,98 @@
     outline: none;
     cursor: pointer;
     border: 1px solid #D5D5D5;
-   
     border-left: none;
     background: #FFFFFF;
     font-size: 15px;
   
   
   }
-  .card{
-      margin-left:20px;
+
+  .fa-calendar-check-o { 
+    font-weight: bold;
+    color: #FC732F;
   }
+  .fa-search{
+    color:#FC732F;
+
+  }
+  .ticket{
+    color:#FC732F;
+    font-size:15px;
+  }
+  .card-text{
+    font-family:Almarai;
+  }
+  .btn-default {
+    color: #FC732F!important;;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-weight: 700;
+    border: 2px solid #FC732F!important;;
+    background: transparent;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .btn-default:hover {
+    color: #FFF!important;;
+    background: #FC732F;
+    border: 2px solid #FC732F;
+  }
+  .btn-secondary
+  {
+    line-height: 30px;
+  }
+  .horizontal-cards{
+    display:none;
+  }  
+  .vertical-cards{
+    display:block;
+  }
+  .mob-card{
+    display:none;
+  }
+  .img-square-wrapper img{
+    width:111px;
+    height:111px;
+    margin-left:20px;
+    margin-top:20px;
+  }
+  .card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+  }
+@media only screen and (max-width: 1024px) {
+  
+      .horizontal-cards{
+        display:block;
+      }  
+      .vertical-cards{
+        display:none;
+      }
+      .mob-card{
+        display:none;
+      }
+  .search-input{
+    width:708px;
+  }
+}
+     
+@media only screen and (max-width: 768px) {
+  
+  .horizontal-cards{
+    display:none;
+  }  
+  .vertical-cards{
+    display:none;
+  }
+  .mob-card{
+    display:block;
+  }
+  .search-input{
+    margin-left:12px;
+    width:341px;
+  }
+  .logo{
+    margin-left: 0px;
+}
+}
